@@ -24,20 +24,3 @@ int perfectSum(vector<int> arr, int n, int t)
     return last[t];
 }
 
-int main() 
-{  	int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        vector<int> arr(n,0);
-        for(int i=0; i<n; i++) cin>>arr[i];
-        int target;
-        cin>>target;
-        cout<<perfectSum(arr, n, target)<<endl;        
-	     
-    }
-    return 0;
-}
-
